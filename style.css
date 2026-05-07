@@ -169,10 +169,13 @@ header .row {
   background-color: rgb(95, 122, 253);
   width: 100px;
   height: 50px;
-  border: 2px;
   border-radius: 12px;
+  border: none;
+  margin: 20px;
   padding: 25px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .email {
@@ -180,10 +183,10 @@ header .row {
 }
 
 .trust {
-    font-size: 10px;
-    color: rgb(160, 174, 192);
-    font-size: 12px;
-    font-weight: 700;
+  font-size: 10px;
+  color: rgb(160, 174, 192);
+  font-size: 12px;
+  font-weight: 700;
 }
 
 /*** FEATURES ****/
