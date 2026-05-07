@@ -7,7 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", system-ui;
-  color: #2471de;
+  color: #0e1bae;
 }
 
 body {
@@ -31,8 +31,8 @@ body {
   padding: 96px 0;
 }
 
-.purple {
-  color: #6415ff;
+.text--blue {
+  color: #2471de;
 }
 
 section {
@@ -41,6 +41,11 @@ section {
 
 main {
   margin-bottom: 96px;
+}
+
+p {
+  font-size: 24px;
+  color: #242424;
 }
 
 /****** NAV BAR ******/
@@ -136,6 +141,49 @@ header .row {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.row--react {
+  width: 100%;
+  max-width: 400px; /* Max width for the container */
+  height: 100vh; /* Full height of the viewport */
+  margin: 0 auto; /* Center the container */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack child elements vertically */
+  justify-content: space-evenly; /* Space elements evenly */
+  align-items: stretch; /* Stretch items to fill height */
+  background-color: aqua; /* Background color */
+  padding: 40px; /* Adjust padding as needed */
+}
+
+.begin {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.submit {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: rgb(95, 122, 253);
+  width: 100px;
+  height: 50px;
+  border: 2px;
+  border-radius: 12px;
+  padding: 25px;
+  display: flex;
+}
+
+.email {
+  background-color: rgb(195, 224, 255);
+}
+
+.trust {
+    font-size: 10px;
+    color: rgb(160, 174, 192);
+    font-size: 12px;
+    font-weight: 700;
 }
 
 /*** FEATURES ****/

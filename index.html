@@ -6,14 +6,32 @@
     <title>Treact</title>
     <link rel="stylesheet" href="./style.css" />
     <script src="script.js"></script>
-    <!-- <script src="https://kit.fontawesome.com/a219df847a.js" crossorigin="anonymous"></script> -->
+    <script
+      src="https://kit.fontawesome.com/a219df847a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <section id="landing">
       <nav>
         <div class="row nav__row">
-          <div class="nav__logo"><!--  -->Nav Logo here<!--  --></div>
-          <!--  -->Enter Nav Links here<!--  -->
+          <div class="nav__logo">
+            <img
+              src="./assets/logo-negative_space-border.svg"
+              alt="Treact Logo"
+            />
+            <p>Treact</p>
+          </div>
+          <nav>
+            <ul>
+              <a href="#about">About</a>
+              <a href="#Blog">Blog</a>
+              <a href="#about">Pricing</a>
+              <a href="#about">Login</a>
+              <a href="#about">Sign Up</a>
+              <a href="#about">Contact Us</a>
+            </ul>
+          </nav>
           <button class="btn__menu" onclick="openMenu()">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -63,8 +81,20 @@
       </div>
       <header>
         <div class="container">
-          <div class="row">
-            <!--  -->Enter Header / About Us Section<!--  -->
+          <div class="row--react">
+            <h1>
+              Beautiful <span class="text--blue">React</span> Templates for you.
+            </h1>
+            <p>
+              Our templates are easy to setup, simple to understand, and completely customizable.
+            </p>
+            <form class="begin">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="janedoe@example.com" required class="email"/>
+                <button class="submit" type="submit">Submit</button>
+            </form>
+            <p class="trust">OUR TRUSTED CUSTOMERS</p>
+            <img src="./assets/customers-logo-strip.png">
           </div>
         </div>
       </header>
