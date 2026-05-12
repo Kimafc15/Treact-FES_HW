@@ -211,13 +211,12 @@ header .row {
   flex-direction: column;
 }
 
-.submit {
+.join {
   font-size: 24px;
   font-weight: 600;
   color: #ffffff;
   background-color: rgb(95, 122, 253);
-  width: 100px;
-  height: 50px;
+  box-sizing: border-box;
   border-radius: 12px;
   border: none;
   margin: 20px;
@@ -229,6 +228,11 @@ header .row {
 
 .email {
   background-color: rgb(195, 224, 255);
+  border-radius: 12px;
+  border-style: solid;
+  width: 350px;
+  height: 50px;
+  padding-left: 10px;
 }
 
 .trust {
