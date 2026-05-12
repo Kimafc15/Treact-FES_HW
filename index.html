@@ -27,10 +27,10 @@
             <ul>
               <a href="#about">About</a>
               <a href="#Blog">Blog</a>
-              <a href="#about">Pricing</a>
-              <a href="#about">Login</a>
-              <a href="#about">Sign Up</a>
-              <a href="#about">Contact Us</a>
+              <a href="#pricing">Pricing</a>
+              <button class="login"><a href="#login" class="text--whitesmoke">Login</a></button>
+              <a href="#sign">Sign Up</a>
+              <a href="#contact">Contact Us</a>
             </ul>
           </nav>
           <button class="btn__menu" onclick="openMenu()">
@@ -80,35 +80,32 @@
           <a class="modal__link modal__link--primary">Sign Up</a>
         </div>
       </div>
-      <header>
+      <header class="header">
         <div class="container">
           <div class="row--react">
-            <div class="row--design">
-              <h1>
-                Beautiful <span class="text--blue">React</span> Templates for
-                you.
-              </h1>
-              <p>
-                Our templates are easy to setup, simple to understand, and
-                completely customizable.
-              </p>
-              <form class="begin">
-                <label for="email">Your Email:</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="janedoe@example.com"
-                  required
-                  class="email"
-                />
-                <button class="submit" type="submit">Submit</button>
-              </form>
-              <p class="trust">OUR TRUSTED CUSTOMERS</p>
-              <img src="./assets/customers-logo-strip.png" />
-              <img src="./assets/design-illustration.svg" />
-            </div>
+            <h1>
+              Beautiful <span class="text--blue">React</span> Templates for you.
+            </h1>
+            <p>
+              Our templates are easy to setup, simple to understand, and
+              completely customizable.
+            </p>
+            <form class="begin">
+              <label for="email">Your Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="janedoe@example.com"
+                required
+                class="email"
+              />
+              <button class="submit" type="submit">Submit</button>
+            </form>
+            <p class="trust">OUR TRUSTED CUSTOMERS</p>
+            <img src="./assets/customers-logo-strip.png" />
           </div>
+          <img class="design" src="./assets/design-illustration.svg" />
         </div>
       </header>
     </section>
@@ -153,8 +150,10 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="row footer__row"><!--  -->Enter Footer<!--  --></div>
+    <footer id="contact">
+      <div class="row footer__row">
+        <h2>Contact Us!</h2>
+      </div>
     </footer>
   </body>
 </html>

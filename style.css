@@ -29,9 +29,10 @@ body {
 }
 
 .container {
+  margin: 10px;
   padding: 96px 0;
   display: flex;
-  justify-content: stretch;
+  justify-content: space-evenly;
 }
 
 .text--blue {
@@ -39,7 +40,7 @@ body {
 }
 
 section {
-  padding: 0 32px;
+  padding: 0 20px;
 }
 
 main {
@@ -65,20 +66,44 @@ nav {
 
 .nav__logo {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   margin: 8px;
   padding: 4px;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 30px;
+  padding: 5px;
+}
+
+.login {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: rgb(95, 122, 253);
+  border-radius: 12px;
+  border: none;
+  margin: 10px;
+  padding: 5px;
+}
+
+.text--whitesmoke {
+    color: whitesmoke;
 }
 
 .logo {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .treact {
-    font-size: 24px;
-    font-weight: 800;
-    color: #3a3939;
+  font-size: 26px;
+  font-weight: 800;
+  color: #243d5f;
 }
 
 .btn__menu {
@@ -151,6 +176,11 @@ nav {
 
 /*********** HEADER ******************** ABOUT    US *************/
 
+.header {
+  margin: 10px;
+  max-width: 1000px;
+}
+
 header .row {
   display: flex;
   align-items: center;
@@ -161,18 +191,18 @@ header .row {
   width: 100%;
   max-width: 400px; /* Max width for the container */
   height: 100vh; /* Full height of the viewport */
-  margin: 0 auto; /* Center the container */
   display: flex; /* Use flexbox for layout */
   flex-direction: column; /* Stack child elements vertically */
   justify-content: space-evenly; /* Space elements evenly */
   align-items: stretch; /* Stretch items to fill height */
-  background-color: aqua; /* Background color */
-  padding: 40px; /* Adjust padding as needed */
+  padding: 20px; /* Adjust padding as needed */
 }
 
-.row--design {
-  display: flex;
-  flex-direction: column;
+.design {
+  max-width: 900px;
+  max-height: 1000px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .begin {
