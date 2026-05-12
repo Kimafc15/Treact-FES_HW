@@ -81,7 +81,7 @@ a {
 }
 
 .login {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   color: #ffffff;
   background-color: rgb(95, 122, 253);
@@ -198,6 +198,12 @@ header .row {
   padding: 20px; /* Adjust padding as needed */
 }
 
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #242424;
+}
+
 .design {
   max-width: 900px;
   max-height: 1000px;
@@ -206,24 +212,23 @@ header .row {
 }
 
 .begin {
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .join {
-  font-size: 24px;
+  font-size: 12px;
   font-weight: 600;
   color: #ffffff;
   background-color: rgb(95, 122, 253);
-  box-sizing: border-box;
   border-radius: 12px;
   border: none;
-  margin: 20px;
-  padding: 25px;
+  margin: 10px;
+  padding: 7px;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .email {
