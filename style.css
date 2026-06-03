@@ -266,6 +266,8 @@ h1 {
 
 .section--header {
   text-align: center;
+  margin: 20px;
+  padding: 20px;
 }
 
 .features {
@@ -342,8 +344,6 @@ h1 {
 
 .section--order__quality {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
   margin: 10px;
   padding: 10px;
@@ -372,6 +372,44 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.section--order__steps {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.laptop {
+  width: 700px;
+  height: auto;
+}
+
+.steps {
+  width: 100px;
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+}
+
+.numbers {
+  font-size: 36px;
+  font-weight: 600;
+  color: #d3d6d9;
+}
+
+.words {
+  font-size: 20px;
+  font-weight: 500;
+  color: #242424;
 }
 
 /******** VALUES *********/
