@@ -461,6 +461,194 @@ h1 {
   align-items: center;
 }
 
+.section--order__pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.price--cards--order {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.price--card--personal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  margin: 10px;
+  padding: 20px;
+  width: 350px;
+  height: 700px;
+  border: 1px solid #d7dbe2;
+  border-radius: 12px;
+}
+
+.price--card--business {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  margin: 10px;
+  padding: 20px;
+  width: 350px;
+  height: 700px;
+  border: 1px solid #d7dbe2;
+  border-radius: 12px;
+  color: whitesmoke;
+  background-color: rgb(62, 90, 214);
+}
+
+.price--card--enterprise {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  margin: 10px;
+  padding: 20px;
+  width: 350px;
+  height: 700px;
+  border: 1px solid #d7dbe2;
+  border-radius: 12px;
+}
+
+.price--card__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.price--title {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(29, 29, 30);
+}
+
+.price--title--business {
+  font-size: 20px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.price--amount {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(29, 29, 30);
+}
+
+.price--amount--business {
+  font-size: 50px;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.price--subheading {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(178, 178, 181);
+}
+
+.price--subheading--business {
+  font-size: 20px;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.price--card__middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.price--card__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.price--words {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(131, 131, 134);
+}
+
+.price--words--business {
+  font-size: 15px;
+  font-weight: 400;
+  color: whitesmoke;
+}
+
+.price--card__bottom {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.price--card__button--personal {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: rgb(118, 213, 201);
+  border-radius: 12px;
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.price--card__button--business {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(36, 68, 228);
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.price--card__button--enterprise {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: rgb(251, 111, 111);
+  border-radius: 12px;
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /******  Testimonials  ******/
 
 #testimonials .row {
